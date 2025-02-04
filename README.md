@@ -54,7 +54,8 @@ The first few systems attempted with this were outputting `pdf` files, which mea
 [^3]: As mentioned in the [background](https://github.com/NHS-juju/SFT-Kettering-Work-Log/edit/main/README.md#background), there are potential issues with using `html`, making this an unlikely option.
 
 ### Additional Development Work [^4]
-[^4]: there was a big delay to beginning this next phase due to other high priority work the Trust was completing.
+[^4]: There was a big delay to beginning this next phase due to other high priority work the Trust was completing.
+
 Following the failure sending `doc`/`docx` to [SystmOne](https://en.wikipedia.org/wiki/SystmOne) additional rollouts were stopped where the document format would be an issue.
 
 The approach at this point is to work on either
