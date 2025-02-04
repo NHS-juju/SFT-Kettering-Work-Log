@@ -6,7 +6,7 @@
 
 # Somerset NHS Foundation Trust - Migrating from Kettering+HTML to Kettering+PDF
 
-> Work logs
+> Work logs 
 
 ## Overview
 
