@@ -70,5 +70,18 @@ We have massively improved our position by being able to send documents to GP Pr
 
 ### Current Issues
 There have been some reports that users in practices are not able to select text from the body of the `pdf` when viewed within [EMISWeb](https://www.emishealth.com/products/emis-web). Tests have confirmed that the text is available within the `pdf` natively (without use of OCR) so this does appear to be related to [EMISWeb](https://www.emishealth.com/products/emis-web) itself. This has been raised with the supplier.
+
+### Outstanding Work
+1. Completion of Migration of Integration Engines for activity from Yeovil District Hospital to then use this new route/process.
+2. Implement `html`>`pdf`>`Kettering+pdf` route for outputs from Community systems currently routing via a system called "decisions" which is actively being decommisioned.
+3. Make the final changes to support `doc`/`docx`>`pdf`>`Kettering+pdf` for the final small systems waiting to be migrated to new process.
+
+### Tools used
+1. [InterSystems Health Connect](https://www.intersystems.com/uk/products/healthshare/health-connect/) Primary Integration Engine used by Trust.
+2. [PDFGenerator](https://github.com/Somerset-NHS-Solutions-Development/PDFGenerator) Locally developed app which can convert `html` to `pdf`
+3. [libreconvert](https://github.com/Somerset-NHS-Solutions-Development/libreconvert) Locally developed app which can convert `doc`/`docx` to `pdf`
+
+Please note that the above internally developed apps may not be immediately available on github while they undergo additional testing and scrutiny before being made available.
+
 ## License
 `SFT-Kettering-Work-Log` is licensed under the [Open Government Licence v3.0](./LICENSE) license.
