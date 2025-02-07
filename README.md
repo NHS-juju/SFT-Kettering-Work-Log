@@ -12,7 +12,7 @@
 
 ### Purpose
 
-This repo outlines the steps that have been taken to migrate from producing `Kettering+html` to `Kettering+pdf` for sending clinical documents via [MESH](https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh).
+This repo is a work log documenting the work to migrate from producing `Kettering+html` to `Kettering+pdf` for sending clinical documents via [MESH](https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh).
 
 ### Background
 
